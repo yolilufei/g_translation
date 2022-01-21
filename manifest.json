@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "gtrans",
+    "version": "1.0.1",
+    "action": {
+        "default_icon": {
+            "16": "src/images/16.png",
+            "64": "src/images/64.png",
+            "128": "src/images/128.png"
+        },
+        "default_title": "王翻译",
+        "default_popup": "src/html/popup.html"
+    },
+    "description": "中英互译，支持片段翻译",
+    "icon": {
+        "16": "src/images/16.png",
+        "64": "src/images/64.png",
+        "128": "src/images/128.png"
+    },
+    "author": "guoshi",
+    "chrome_url_overrides": {
+        "newtab": "src/html/overrides.html"
+    },
+    "permission": [
+        "contextMenus",
+        "webRequest",
+        "storage"
+    ],
+    "homepage_url": "https://github.com/yolilufei/g_translation.git"
+}

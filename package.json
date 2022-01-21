@@ -1,0 +1,29 @@
+{
+  "name": "g_translation",
+  "version": "1.0.0",
+  "description": "中英互译浏览器插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yolilufei/g_translation.git"
+  },
+  "keywords": [
+    "translation",
+    "chrome_extension"
+  ],
+  "author": "guoshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yolilufei/g_translation/issues"
+  },
+  "homepage": "https://github.com/yolilufei/g_translation#readme",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
