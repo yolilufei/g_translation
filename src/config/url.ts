@@ -1,0 +1,1 @@
+export default 'http://api.fanyi.baidu.com/api/trans/vip/translate';
