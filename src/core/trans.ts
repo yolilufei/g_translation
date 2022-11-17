@@ -29,7 +29,7 @@ class Trans {
         });
     }
 
-    showTransModal() {
-
+    showTransModal(...args: any[]) {
+        console.log(args);
     }
 }
