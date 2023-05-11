@@ -1,5 +1,3 @@
-import { chrome } from "../typing/chrome";
-
 class Trans {
     // 选中的待翻译内容
     public selectedContent: string;
@@ -33,3 +31,5 @@ class Trans {
         console.log(args);
     }
 }
+
+export default Trans;
